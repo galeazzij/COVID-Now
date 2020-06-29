@@ -3,6 +3,7 @@ import axios from "axios";
 import { Route, Link } from "react-router-dom";
 import "./App.css";
 
+import medical from "./medical.jpeg";
 import Home from "./Home.js";
 import CountryDetail from "./CountryDetail.js";
 
@@ -28,10 +29,16 @@ class App extends Component {
   render() {
     return (
       <>
+        <header>
+          <h1>COVID-19 Lookup Application</h1>
+        </header>
+
         <nav>
           <Link to="/">Home</Link>
           <Link to="/CountryDetail">Country Detail Page</Link>
         </nav>
+
+        <img src={medical}></img>
 
         <section className="App">
           <Route path="/" exact>
