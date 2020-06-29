@@ -110,9 +110,9 @@ src
 |    Header    | functional |   n   |   n   |   n   | _Top display on each page_ |
 |  Navigation  | functional |   n   |   n   |   n   | _Allows user to navigate the app._ |
 |     Home     | functional |   n   |   y   |   n   | _Displays the base page of the app._ |
-|    Index     | functional |   n   |   n   |   y   | _Displays the app_ |
+|    Index     | functional |   n   |   y   |   n   | _Displays the app_ |
 |    Detail    | functional |   n   |   y   |   n   | _Displays more detail on a selected country._ |
-|   Top 5      |   class    |   y   |   n   |   y   | _Displays the top five countries with covid._ |
+|   Top 5      |   class    |   y   |   y   |   n   | _Displays the top five countries with covid._ |
 | Country List | class      |   n   |   y   |   n   | _Page that user can browse to see numbers by country._ |
 | Button       | functional |   n   |   y   |   n   | _Button that allows user to search by country._ |
 |    Footer    | functional |   n   |   n   |   n   | _App footer._ |
