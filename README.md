@@ -41,19 +41,17 @@
 
 ### MVP
 
-> The Minimum Viable Product should be a well-planned and easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **Project Title** COVID-Now is an app that allows the user to see a snapshot of how the world is affected by this pandemic and to allow the user to search by country.
 
 <br>
 
 #### MVP Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- _Homepage that displays top five countries with hightest number of cases._
+- _Allows user to search for a country._
+- _Utilize six separate components._
+- _Utilize the COVID19API._
+- _Allow the user to see more detail on a selected country._
 
 <br>
 
