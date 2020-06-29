@@ -33,15 +33,9 @@
 
 ### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
+[Desktop Landing](https://wireframe.cc/pro/pp/4280c4226354300#1)
 
-![https://wireframe.cc/pro/pp/4280c4226354300#1](url)
-
-- Desktop Landing
-
-![https://wireframe.cc/pro/pp/4280c4226354300#juenpc6v](url)
-
-- Desktop Details
+[Desktop Details](https://wireframe.cc/pro/pp/4280c4226354300#juenpc6v)
 
 <br>
 
