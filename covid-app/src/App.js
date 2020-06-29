@@ -3,6 +3,9 @@ import axios from "axios";
 import { Route, Link } from "react-router-dom";
 import "./App.css";
 
+import Home from "./Home.js";
+import CountryDetail from "./CountryDetail.js";
+
 const covidUrl = "https://api.covid19api.com/summary";
 
 class App extends Component {
@@ -25,9 +28,19 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="App">
-          <h1>Covid App</h1>
-        </div>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/CountryDetail">Country Detail Page</Link>
+        </nav>
+
+        <section className="App">
+          <Route path="/" exact>
+            <Home country={this.state.country} />
+          </Route>
+          <Route path="/CountryDetail/:name">
+            <CountryDetail countries={this.state.country} />
+          </Route>
+        </section>
       </>
     );
   }
