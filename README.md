@@ -57,11 +57,9 @@ _The **Project Title** COVID-Now is an app that allows the user to see a snapsho
 
 #### MVP API
 
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
-
 |    API     | Quality Docs? | Documentation | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| WeatherAPI |      yes      | _example.com_ | _example.com/mickeymouse?s=movies&t=10_ |
+| COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _example.com/mickeymouse?s=movies&t=10_ |
 
 Sample Query Results:
 
