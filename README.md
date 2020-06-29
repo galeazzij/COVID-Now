@@ -121,27 +121,25 @@ src
 
 #### MVP Timeframes
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
-
 | Task             | Priority | Estimated Time | Time Invested | Actual Time |
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Lorem Ipsum      |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL            |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create Homepage |    M     |     3 hrs      |      hrs     |     TBD    |
+| Grab API Data      |    H     |     2.5 hrs      |      hrs     |     TBD     |
+|    Create Top5   |    H     |     3 hrs      |      hrs     |     TBD     |
+| Details Page      |    H     |     2.5 hrs      |      hrs     |     TBD     |
+| Search Feature      |    H     |     4 hrs      |      hrs     |     TBD     |
+| Add CSS      |    H     |     5 hrs      |      hrs     |     TBD     |
+| TOTAL            |          |     20 hrs      |      hrs     |     TBD     |
 
 <br>
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- _Add an infographic to the data._
+- _Link a second API that pulls in the news related to covid or another site such as CDC._
+- _Add a feature that lets the user compare two countries._
+- _Add more advanced styling such as a Moon Loader._
 
-- _Lorem ipsum._
-- _Lorem ipsum._
 
 <br>
 
