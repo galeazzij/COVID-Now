@@ -33,9 +33,9 @@
 
 ### Wireframes
 
-[Desktop Landing](https://wireframe.cc/pro/pp/4280c4226354300#1)
+[Desktop Landing](https://wireframe.cc/pro/pp/4280c4226354300)
 
-[Desktop Details](https://wireframe.cc/pro/pp/4280c4226354300#juenpc6v)
+[Desktop Details](https://wireframe.cc/pro/pp/4280c4226354300)
 
 <br>
 
