@@ -59,7 +59,7 @@ _The **Project Title** COVID-Now is an app that allows the user to see a snapsho
 
 |    API     | Quality Docs? | Documentation | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _example.com/mickeymouse?s=movies&t=10_ |
+| COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _https://api.covid19api.com/summary_ |
 
 Sample Query Results:
 
