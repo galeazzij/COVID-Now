@@ -2,7 +2,7 @@
 
 ## Description:
 
-## An interactive applicaiton that allows the user to lookup current COVID-19 info
+## An interactive application that allows the user to lookup current COVID-19 info
 
 - [Project Planning](#Project-Planning)
   - [Description](#Description)
