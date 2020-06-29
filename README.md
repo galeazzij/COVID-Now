@@ -62,7 +62,7 @@ _The **Project Title** COVID-Now is an app that allows the user to see a snapsho
 | COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _https://api.covid19api.com/summary_ |
 
 Sample Query Results:
-![image](https://user-images.githubusercontent.com/4926360/85970621-fc764b80-b998-11ea-95ba-6f6cbdaf001d.png
+![Console.log of sample query](https://user-images.githubusercontent.com/4926360/85970621-fc764b80-b998-11ea-95ba-6f6cbdaf001d.png
 
 <br>
 
