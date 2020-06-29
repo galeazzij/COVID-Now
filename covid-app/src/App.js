@@ -3,6 +3,8 @@ import axios from "axios";
 import { Route, Link } from "react-router-dom";
 import "./App.css";
 
+const covidUrl = "https://api.covid19api.com/summary";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -10,6 +12,15 @@ class App extends Component {
       country: [],
       loading: true,
     };
+  }
+
+  async componentDidMount() {
+    const countryData = await axios(`${covidUrl}`);
+    console.log(countryData.data.Countries);
+    this.setState({
+      country: countryData.data.Countries,
+      loading: false,
+    });
   }
   render() {
     return (
