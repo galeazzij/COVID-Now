@@ -62,7 +62,8 @@ _The **Project Title** COVID-Now is an app that allows the user to see a snapsho
 | COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _https://api.covid19api.com/summary_ |
 
 Sample Query Results:
-[Console.log of sample query](https://user-images.githubusercontent.com/4926360/85970621-fc764b80-b998-11ea-95ba-6f6cbdaf001d.png
+<br>
+[Console.log of sample query](https://user-images.githubusercontent.com/4926360/85970621-fc764b80-b998-11ea-95ba-6f6cbdaf001d.png)
 
 <br>
 
@@ -72,15 +73,13 @@ Sample Query Results:
 
 |   Library    | Description                                |
 | :----------: | :----------------------------------------- |
-|    React     | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Router | _Lorem ipsum dolor sit amet, consectetur._ |
-| React Spring | _Lorem ipsum dolor sit amet, consectetur._ |
+|    React     | _To build component based app._ |
+| React Router | _To utilize dom manipulation._ |
+| Axios | _To pull API information._ |
 
 <br>
 
 #### MVP Components
-
-> Use this section to define your React components and the data architecture of your app.
 
 ```
 src
@@ -91,10 +90,13 @@ src
       |__ wireframes
 |__ components/
       |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
+      |__ Navigation.jsx
+      |__ Home.jsx
+      |__ Button.jsx
+      |__ Top 5.jsx
+      |__ Detail Page.jsx
+      |__ Country List.jsx
+      |__ Search.jsx
       |__ Footer.jsx
 ```
 
@@ -102,19 +104,18 @@ src
 
 #### MVP Breakdown
 
-> Use this section to go into further depth regarding every component, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
 |  Component   |    Type    | state | props | hooks | Description                                |
 | :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
-|    App.js    |   class    |   y   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Header    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Navigation  | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Home     | functional |   n   |   y   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Index     | functional |   n   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Detail    | functional |   n   |   y   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|   Gallery    |   class    |   y   |   n   |   y   | _Lorem ipsum dolor sit amet, consectetur._ |
-| Gallery Card | functional |   n   |   y   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
-|    Footer    | functional |   n   |   n   |   n   | _Lorem ipsum dolor sit amet, consectetur._ |
+|    App.js    |   class    |   y   |   n   |   n   | _Displays the main site._ |
+|    Header    | functional |   n   |   n   |   n   | _Top display on each page_ |
+|  Navigation  | functional |   n   |   n   |   n   | _Allows user to navigate the app._ |
+|     Home     | functional |   n   |   y   |   n   | _Displays the base page of the app._ |
+|    Index     | functional |   n   |   n   |   y   | _Displays the app_ |
+|    Detail    | functional |   n   |   y   |   n   | _Displays more detail on a selected country._ |
+|   Top 5      |   class    |   y   |   n   |   y   | _Displays the top five countries with covid._ |
+| Country List | class      |   n   |   y   |   n   | _Page that user can browse to see numbers by country._ |
+| Button       | functional |   n   |   y   |   n   | _Button that allows user to search by country._ |
+|    Footer    | functional |   n   |   n   |   n   | _App footer._ |
 
 <br>
 
