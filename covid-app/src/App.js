@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Route, Link } from "react-router-dom";
-import "./App.css";
 
 import medical from "./medical.jpeg";
 import Home from "./Home.js";
 import CountryDetail from "./CountryDetail.js";
+import TopFive from "./TopFive.js";
+
+import "./App.css";
 
 const covidUrl = "https://api.covid19api.com/summary";
 
@@ -44,6 +46,9 @@ class App extends Component {
           <Route path="/" exact>
             <Home country={this.state.country} />
           </Route>
+
+          <TopFive country={this.state.country} />
+
           <Route path="/CountryDetail/:name">
             <CountryDetail countries={this.state.country} />
           </Route>

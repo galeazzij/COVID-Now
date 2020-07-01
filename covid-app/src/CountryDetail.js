@@ -5,22 +5,29 @@ class CountryDetail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      country: [],
+      countryDetail: {},
     };
   }
 
-  componentDidMount() {
-    const { match, countries } = this.props;
-    const country = countries.find(
-      (country) => country.Country === match.params.name
-    );
-    console.log(countries);
-    this.setState({ country });
+  componentDidUpdate(previousProps) {
+    console.log("Hi");
+    if (previousProps.countries != this.props.countries) {
+      const { match, countries } = this.props;
+      const country = countries.find(
+        (country) => country.Country === match.params.name
+      );
+      console.log(match.params.name);
+      console.log(countries);
+
+      this.setState({
+        countryDetail: country,
+      });
+    }
   }
   render() {
     return (
       <>
-        <h1>This is CountryDetail Page</h1>
+        <h1>{this.state.countryDetail.Country}</h1>
       </>
     );
   }
