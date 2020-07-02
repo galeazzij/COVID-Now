@@ -41,7 +41,7 @@
 
 ### MVP
 
-_The **Project Title** COVID-Now is an app that allows the user to see a snapshot of how the world is affected by this pandemic and to allow the user to search by country.
+\_The **Project Title** COVID-Now is an app that allows the user to see a snapshot of how the world is affected by this pandemic and to allow the user to search by country.
 
 <br>
 
@@ -57,8 +57,8 @@ _The **Project Title** COVID-Now is an app that allows the user to see a snapsho
 
 #### MVP API
 
-|    API     | Quality Docs? | Documentation | Sample Query                            |
-| :--------: | :-----------: | :------------ | :-------------------------------------- |
+|    API     | Quality Docs? | Documentation                                                             | Sample Query                         |
+| :--------: | :-----------: | :------------------------------------------------------------------------ | :----------------------------------- |
 | COVID19API |      yes      | _https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest_ | _https://api.covid19api.com/summary_ |
 
 Sample Query Results:
@@ -71,11 +71,11 @@ Sample Query Results:
 
 > Use this section to list the key supporting libraries and their role in the project.
 
-|   Library    | Description                                |
-| :----------: | :----------------------------------------- |
+|   Library    | Description                     |
+| :----------: | :------------------------------ |
 |    React     | _To build component based app._ |
-| React Router | _To utilize dom manipulation._ |
-| Axios | _To pull API information._ |
+| React Router | _To utilize dom manipulation._  |
+|    Axios     | _To pull API information._      |
 
 <br>
 
@@ -104,32 +104,32 @@ src
 
 #### MVP Breakdown
 
-|  Component   |    Type    | state | props | hooks | Description                                |
-| :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
-|    App.js    |   class    |   y   |   n   |   n   | _Displays the main site._ |
-|    Header    | functional |   n   |   n   |   n   | _Top display on each page_ |
-|  Navigation  | functional |   n   |   n   |   n   | _Allows user to navigate the app._ |
-|     Home     | functional |   n   |   y   |   n   | _Displays the base page of the app._ |
-|    Index     | functional |   n   |   y   |   n   | _Displays the app_ |
-|    Detail    | functional |   n   |   y   |   n   | _Displays more detail on a selected country._ |
-|   Top 5      |   class    |   y   |   y   |   n   | _Displays the top five countries with covid._ |
-| Country List | class      |   n   |   y   |   n   | _Page that user can browse to see numbers by country._ |
-| Button       | functional |   n   |   y   |   n   | _Button that allows user to search by country._ |
-|    Footer    | functional |   n   |   n   |   n   | _App footer._ |
+|  Component   |    Type    | state | props | hooks | Description                                            |
+| :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------------------- |
+|    App.js    |   class    |   y   |   n   |   n   | _Displays the main site._                              |
+|    Header    | functional |   n   |   n   |   n   | _Top display on each page_                             |
+|  Navigation  | functional |   n   |   n   |   n   | _Allows user to navigate the app._                     |
+|     Home     | functional |   n   |   y   |   n   | _Displays the base page of the app._                   |
+|    Index     | functional |   n   |   y   |   n   | _Displays the app_                                     |
+|    Detail    | functional |   n   |   y   |   n   | _Displays more detail on a selected country._          |
+|    Top 5     |   class    |   y   |   y   |   n   | _Displays the top five countries with covid._          |
+| Country List |   class    |   n   |   y   |   n   | _Page that user can browse to see numbers by country._ |
+|    Button    | functional |   n   |   y   |   n   | _Button that allows user to search by country._        |
+|    Footer    | functional |   n   |   n   |   n   | _App footer._                                          |
 
 <br>
 
 #### MVP Timeframes
 
-| Task             | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Create Homepage |    M     |     3 hrs      |      hrs     |     TBD    |
-| Grab API Data      |    H     |     2.5 hrs      |      hrs     |     TBD     |
-|    Create Top5   |    H     |     3 hrs      |      hrs     |     TBD     |
-| Details Page      |    H     |     2.5 hrs      |      hrs     |     TBD     |
-| Search Feature      |    H     |     4 hrs      |      hrs     |     TBD     |
-| Add CSS      |    H     |     5 hrs      |      hrs     |     TBD     |
-| TOTAL            |          |     20 hrs      |      hrs     |     TBD     |
+| Task            | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------- | :------: | :------------: | :-----------: | :---------: |
+| Create Homepage |    M     |     3 hrs      |      hrs      |     TBD     |
+| Grab API Data   |    H     |    2.5 hrs     |      hrs      |     TBD     |
+| Create Top5     |    H     |     3 hrs      |      hrs      |     TBD     |
+| Details Page    |    H     |    2.5 hrs     |      hrs      |     TBD     |
+| Search Feature  |    H     |     4 hrs      |      hrs      |     TBD     |
+| Add CSS         |    H     |     5 hrs      |      hrs      |     TBD     |
+| TOTAL           |          |     20 hrs     |      hrs      |     TBD     |
 
 <br>
 
@@ -139,7 +139,6 @@ src
 - _Link a second API that pulls in the news related to covid or another site such as CDC._
 - _Add a feature that lets the user compare two countries._
 - _Add more advanced styling such as a Moon Loader._
-
 
 <br>
 
