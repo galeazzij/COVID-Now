@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 
 //TopFive sorts the countries into the descending order
 const TopFive = (props) => {
-  const sortedCountries = props.country.sort(
+  const sortedCountries = [...props.country].sort(
     (a, b) => b.TotalConfirmed - a.TotalConfirmed
   );
 

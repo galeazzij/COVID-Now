@@ -3,9 +3,10 @@ import axios from "axios";
 import { Route, Link } from "react-router-dom";
 
 import medical from "./medical.jpeg";
-import Home from "./Home.js";
+import AllCountry from "./AllCountry.js";
 import CountryDetail from "./CountryDetail.js";
 import TopFive from "./TopFive.js";
+import Search from "./Search.js";
 
 import "./App.css";
 
@@ -37,22 +38,28 @@ class App extends Component {
 
         <nav>
           <Link to="/">Home</Link>
+          <Link to="/AllCountry">All Countries</Link>
           <Link to="/CountryDetail">Country Detail Page</Link>
         </nav>
 
         <img src={medical}></img>
 
-        <section className="App">
-          <Route path="/" exact>
-            <Home country={this.state.country} />
-          </Route>
+        <main className="App">
+          <section className="Snapshot">
+            <Route path="/" exact>
+              <TopFive country={this.state.country} />
+              <Search country={this.state.country} />
+            </Route>
+          </section>
 
-          <TopFive country={this.state.country} />
+          <Route path="/AllCountry">
+            <AllCountry country={this.state.country} />
+          </Route>
 
           <Route path="/CountryDetail/:name">
             <CountryDetail countries={this.state.country} />
           </Route>
-        </section>
+        </main>
       </>
     );
   }

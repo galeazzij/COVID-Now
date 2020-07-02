@@ -3,9 +3,11 @@ import { Link, withRouter } from "react-router-dom";
 import axios from "axios";
 
 const Home = (props) => {
+  const sortedAllCountries = props.country.sort();
+
   return (
     <div>
-      {props.country.map((countryList) => (
+      {sortedAllCountries.map((countryList) => (
         <>
           <Link to={`/CountryDetail/${countryList.Country}`}>
             <h1>{countryList.Country}</h1>
