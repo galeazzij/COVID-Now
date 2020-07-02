@@ -7,6 +7,7 @@ import AllCountry from "./AllCountry.js";
 import CountryDetail from "./CountryDetail.js";
 import TopFive from "./TopFive.js";
 import Search from "./Search.js";
+import Header from "./Header.js";
 
 import "./App.css";
 
@@ -36,8 +37,8 @@ class App extends Component {
   render() {
     return (
       <>
-        <header>
-          <h1>COVID-19 Lookup Application</h1>
+        <header className="App-header">
+          <Header />
         </header>
 
         <nav>
