@@ -8,6 +8,7 @@ import CountryDetail from "./CountryDetail.js";
 import TopFive from "./TopFive.js";
 import Search from "./Search.js";
 import Header from "./Header.js";
+import Footer from "./Footer.js";
 
 import "./App.css";
 
@@ -64,6 +65,10 @@ class App extends Component {
             <CountryDetail countries={this.state.country} />
           </Route>
         </main>
+
+        <footer className="App-footer">
+          <Footer />
+        </footer>
       </>
     );
   }
