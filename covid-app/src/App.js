@@ -22,12 +22,16 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const countryData = await axios(`${covidUrl}`);
-    console.log(countryData.data.Countries);
-    this.setState({
-      country: countryData.data.Countries,
-      loading: false,
-    });
+    try {
+      const countryData = await axios(`${covidUrl}`);
+      console.log(countryData.data.Countries);
+      this.setState({
+        country: countryData.data.Countries,
+        loading: false,
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }
   render() {
     return (
@@ -39,7 +43,6 @@ class App extends Component {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/AllCountry">All Countries</Link>
-          <Link to="/CountryDetail">Country Detail Page</Link>
         </nav>
 
         <img src={medical}></img>

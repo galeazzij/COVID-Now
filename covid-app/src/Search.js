@@ -30,15 +30,29 @@ class Search extends Component {
   render() {
     return (
       <>
-        <input type="text" onChange={this.handleChange} />
-        <button onClick={this.handleSearch}>Search</button>
-
         <section>
-          {this.state.countryDetail ? (
-            <h2>Country: {this.state.countryDetail.Country}</h2>
-          ) : (
-            `Sorry I didn't recognize that country!`
-          )}
+          <div>
+            <input type="text" onChange={this.handleChange} />
+            <button onClick={this.handleSearch}>Search</button>
+          </div>
+          <br></br>
+
+          <div>
+            {this.state.countryDetail ? (
+              <p>
+                <h1>Country</h1>
+                {this.state.countryDetail.Country}
+                <br></br>
+                <h4>Total Confirmed</h4>
+                {this.state.countryDetail.TotalConfirmed}
+                <br></br>
+                <h4>Total Deaths</h4>
+                {this.state.countryDetail.TotalDeaths}
+              </p>
+            ) : (
+              `Sorry I didn't recognize that country!`
+            )}
+          </div>
         </section>
       </>
     );
