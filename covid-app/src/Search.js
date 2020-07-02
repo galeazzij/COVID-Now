@@ -7,6 +7,7 @@ class Search extends Component {
     this.state = {
       searchText: "",
       countryDetail: {},
+      showSearch: false,
     };
   }
   //Utilized from Pokedex lab
@@ -21,9 +22,13 @@ class Search extends Component {
     const countrySearch = country.find(
       (country) => country.Country === this.state.searchText
     );
-
+    if (!countrySearch) {
+      alert("Sorry your search did not match any countries!");
+      return;
+    }
     this.setState({
       countryDetail: countrySearch || {},
+      setSearch: true,
     });
   };
 
@@ -38,7 +43,7 @@ class Search extends Component {
           <br></br>
 
           <div>
-            {this.state.countryDetail ? (
+            {this.state.setSearch && (
               <p>
                 <h1>Country</h1>
                 {this.state.countryDetail.Country}
@@ -49,8 +54,6 @@ class Search extends Component {
                 <h4>Total Deaths</h4>
                 {this.state.countryDetail.TotalDeaths}
               </p>
-            ) : (
-              `Sorry I didn't recognize that country!`
             )}
           </div>
         </section>
