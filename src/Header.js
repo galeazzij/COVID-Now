@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import axios from "axios";
 
-const timeUrl = "http://worldtimeapi.org/api/ip";
+const timeUrl = "https://worldtimeapi.org/api/ip";
 
 class Header extends Component {
   constructor(props) {
