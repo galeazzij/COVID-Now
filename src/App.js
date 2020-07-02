@@ -42,14 +42,14 @@ class App extends Component {
           <Header />
         </header>
 
-        <nav>
+        <nav className="nav-justified">
           <Link to="/">Home</Link>
           <Link to="/AllCountry">All Countries</Link>
         </nav>
 
-        <img src={medical}></img>
+        <img src={medical} className="img-fluid"></img>
 
-        <main className="App">
+        <main className="container">
           <section className="Snapshot">
             <Route path="/" exact>
               <TopFive country={this.state.country} />
