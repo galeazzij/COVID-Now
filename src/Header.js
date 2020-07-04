@@ -28,9 +28,9 @@ class Header extends Component {
   render() {
     return (
       <>
-        <div className="Header">
+        <div className="container">
           <p>
-            <h1>COVID-19 Lookup</h1>
+            <h2>COVID-19 Lookup</h2>
           </p>
           <p>{`It looks like your timezone is: ${this.state.timeInfo.timezone}`}</p>
           <p>{`Where the current time is: ${this.state.timeInfo.datetime}`}</p>

@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <header className="App-header">
+        <header className="page-header bg-dark text-white">
           <Header />
         </header>
 
@@ -47,13 +47,22 @@ class App extends Component {
           <Link to="/AllCountry">All Countries</Link>
         </nav>
 
-        <img src={medical} className="img-fluid"></img>
+        <img
+          src={medical}
+          className="img-fluid rounded mx-auto d-block"
+          alt="Medical Worker"
+        ></img>
 
-        <main className="container">
-          <section className="Snapshot">
+        <main className="container-fluid">
+          <section className="row">
             <Route path="/" exact>
-              <TopFive country={this.state.country} />
-              <Search country={this.state.country} />
+              <div className="col-sm-6 border">
+                <TopFive country={this.state.country} />
+              </div>
+
+              <div className="col-sm-6 border">
+                <Search country={this.state.country} />
+              </div>
             </Route>
           </section>
 
@@ -66,7 +75,7 @@ class App extends Component {
           </Route>
         </main>
 
-        <footer className="App-footer">
+        <footer className="page-footer bg-dark">
           <Footer />
         </footer>
       </>

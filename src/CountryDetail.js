@@ -32,11 +32,13 @@ class CountryDetail extends Component {
   render() {
     return (
       <>
-        <h1>Country: {this.state.countryDetail.Country}</h1>
-        <h3>
-          Total Confirmed Cases: {this.state.countryDetail.TotalConfirmed}
-        </h3>
-        <h3>Total Deaths: {this.state.countryDetail.TotalDeaths}</h3>
+        <div className="container">
+          <h1>Country: {this.state.countryDetail.Country}</h1>
+          <h3>
+            Total Confirmed Cases: {this.state.countryDetail.TotalConfirmed}
+          </h3>
+          <h3>Total Deaths: {this.state.countryDetail.TotalDeaths}</h3>
+        </div>
       </>
     );
   }

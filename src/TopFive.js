@@ -13,11 +13,11 @@ const TopFive = (props) => {
 
   return (
     <div>
-      <h1>Top Five Countries by Cases</h1>
+      <h3>Top Five Countries by Cases</h3>
       {justFive.map((countryList) => (
         <>
           <Link to={`/CountryDetail/${countryList.Country}`}>
-            <h1>{countryList.Country}</h1>
+            <h5>{countryList.Country}</h5>
           </Link>
         </>
       ))}

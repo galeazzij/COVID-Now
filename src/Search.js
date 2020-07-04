@@ -35,23 +35,28 @@ class Search extends Component {
   render() {
     return (
       <>
-        <section>
+        <section className="container">
+          <div>
+            <h2>Search for a Country Below:</h2>
+          </div>
           <div>
             <input type="text" onChange={this.handleChange} />
-            <button onClick={this.handleSearch}>Search</button>
+            <button className="btn btn-primary" onClick={this.handleSearch}>
+              Search
+            </button>
           </div>
           <br></br>
 
-          <div>
+          <div className="container">
             {this.state.setSearch && (
               <p>
-                <h1>Country</h1>
+                <h5>Country:</h5>
                 {this.state.countryDetail.Country}
                 <br></br>
-                <h4>Total Confirmed</h4>
+                <h5>Total Confirmed Cases:</h5>
                 {this.state.countryDetail.TotalConfirmed}
                 <br></br>
-                <h4>Total Deaths</h4>
+                <h5>Total Deaths:</h5>
                 {this.state.countryDetail.TotalDeaths}
               </p>
             )}

@@ -8,8 +8,11 @@ const Footer = () => {
   render();
   return (
     <>
-      <nav>
+      <nav className="nav-justified">
         <Link to="/About">About Me</Link>
+        <h6 className="text-white">Powered by:</h6>
+        <a href="https://covid19api.com/">COVID19api</a>
+        <a href="http://worldtimeapi.org/">World Time API</a>
       </nav>
       <Route path="/About">
         <About />
