@@ -146,7 +146,10 @@ src
 
 ## Project Delivery
 
-> The Project Delivery section should be completed as your work on your project.
+- _Initial site framework finished on 30JUN2020_
+- _Site pulling data on 01JUN2020_
+- _APP MVP functional on 02JUN2020_
+- _Site CSS complete on 04JUN2020_
 
 ### Code Showcase
 
