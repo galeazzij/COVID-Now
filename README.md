@@ -123,13 +123,13 @@ src
 
 | Task            | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------- | :------: | :------------: | :-----------: | :---------: |
-| Create Homepage |    M     |     3 hrs      |      hrs      |     TBD     |
-| Grab API Data   |    H     |    2.5 hrs     |      hrs      |     TBD     |
-| Create Top5     |    H     |     3 hrs      |      hrs      |     TBD     |
-| Details Page    |    H     |    2.5 hrs     |      hrs      |     TBD     |
-| Search Feature  |    H     |     4 hrs      |      hrs      |     TBD     |
-| Add CSS         |    H     |     5 hrs      |      hrs      |     TBD     |
-| TOTAL           |          |     20 hrs     |      hrs      |     TBD     |
+| Create Homepage |    M     |     3 hrs      |     4hrs      |    4hrs     |
+| Grab API Data   |    H     |    2.5 hrs     |     2hrs      |    2hrs     |
+| Create Top5     |    H     |     3 hrs      |     4hrs      |    4hrs     |
+| Details Page    |    H     |    2.5 hrs     |     2hrs      |    2hrs     |
+| Search Feature  |    H     |     4 hrs      |     4hrs      |    4hrs     |
+| Add CSS         |    H     |     5 hrs      |     5hrs      |    5hrs     |
+| TOTAL           |          |     20 hrs     |     21hrs     |    21hrs    |
 
 <br>
 
@@ -150,7 +150,17 @@ src
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+```
+//TopFive sorts the countries into the descending order
+const TopFive = (props) => {
+  const sortedCountries = [...props.country].sort(
+    (a, b) => b.TotalConfirmed - a.TotalConfirmed
+  );
+
+  //justFive gets the first five items in the sorted array TopFive
+  const justFive = sortedCountries.slice(0, 5);
+  console.log(sortedCountries);
+```
 
 ### Code Issues & Resolutions
 
