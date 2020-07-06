@@ -9,6 +9,7 @@ function About() {
         I'm a software engineer who loves building purposeful applications using
         <br></br>
         React.js. I hope you'll comeback again to see what I'm building!
+        <br></br>You can find me on
       </p>
     </div>
   );

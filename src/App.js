@@ -26,7 +26,6 @@ class App extends Component {
   async componentDidMount() {
     try {
       const countryData = await axios(`${covidUrl}`);
-      console.log(countryData.data.Countries);
       this.setState({
         country: countryData.data.Countries,
         loading: false,

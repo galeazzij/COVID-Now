@@ -16,7 +16,6 @@ class Header extends Component {
   async componentDidMount() {
     try {
       const timeData = await axios(`${timeUrl}`);
-      console.log(timeData.data);
       this.setState({
         timeInfo: timeData.data,
         loading: false,
