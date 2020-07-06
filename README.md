@@ -69,13 +69,12 @@ Sample Query Results:
 
 #### MVP Libraries & Dependencies
 
-> Use this section to list the key supporting libraries and their role in the project.
-
-|   Library    | Description                     |
-| :----------: | :------------------------------ |
-|    React     | _To build component based app._ |
-| React Router | _To utilize dom manipulation._  |
-|    Axios     | _To pull API information._      |
+|   Library    | Description                             |
+| :----------: | :-------------------------------------- |
+|    React     | _To build component based app._         |
+| React Router | _To utilize dom manipulation._          |
+|    Axios     | _To pull API information._              |
+|  Bootstrap   | _To add responsive design and styling._ |
 
 <br>
 
