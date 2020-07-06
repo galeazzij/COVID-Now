@@ -9,10 +9,16 @@ const Footer = () => {
   return (
     <>
       <nav className="nav-justified">
-        <Link to="/About">About Me</Link>
+        <Link className="text-white" to="/About">
+          About Me
+        </Link>
         <h6 className="text-white">Powered by:</h6>
-        <a href="https://covid19api.com/">COVID19api</a>
-        <a href="http://worldtimeapi.org/">World Time API</a>
+        <a className="text-white" href="https://covid19api.com/">
+          COVID19api
+        </a>
+        <a className="text-white" href="http://worldtimeapi.org/">
+          World Time API
+        </a>
       </nav>
       <Route path="/About">
         <About />

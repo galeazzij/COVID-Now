@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import axios from "axios";
 
 const Home = (props) => {
   const sortedAllCountries = props.country.sort();

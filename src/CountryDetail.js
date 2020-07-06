@@ -25,7 +25,7 @@ class CountryDetail extends Component {
   }
   //need below since we're only updating once componentDidMount
   componentDidUpdate(previousProps) {
-    if (previousProps.countries != this.props.countries) {
+    if (previousProps.countries !== this.props.countries) {
       this.findCountry();
     }
   }
