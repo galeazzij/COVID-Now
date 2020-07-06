@@ -164,7 +164,3 @@ const TopFive = (props) => {
   const justFive = sortedCountries.slice(0, 5);
   console.log(sortedCountries);
 ```
-
-### Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
