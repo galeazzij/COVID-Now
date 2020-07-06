@@ -143,6 +143,12 @@ src
 
 ---
 
+#### Post-MVP API
+
+|     API      | Quality Docs? | Documentation              | Sample Query                     |
+| :----------: | :-----------: | :------------------------- | :------------------------------- |
+| WorldTimeAPI |      yes      | _http://worldtimeapi.org/_ | _http://worldtimeapi.org/api/ip_ |
+
 ## Project Delivery
 
 - _Initial site framework finished on 30JUN2020_
